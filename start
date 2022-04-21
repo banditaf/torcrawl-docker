@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run --rm --name torcrawl -d -v $(pwd)/results:/results -v $(pwd)/keywords.yar:/torcrawl/res/keywords.yar torcrawl

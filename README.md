@@ -1,0 +1,3 @@
+./build
+./start
+./torcrawl --help
